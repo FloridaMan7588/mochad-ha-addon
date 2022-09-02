@@ -1,0 +1,26 @@
+name: "mochad"
+description: "Enables X-10 ActiveHome and PowerHouse devices for use in Home Assistant"
+version: 0.0.1
+slug: "mochad"
+uart: true
+url: "https://github.com/floridaman7588.me/mochad-ha-addon"
+init: false
+ports:
+  1099/tcp: 1099
+ports_description:
+  1099/tcp: "Mochad TCP gateway"
+options:
+  serial: {}
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+schema:
+  serial:
+    port: str?
+    adapter: match(CM15A|CM15Pro|CM19A)?
+    baudrate: int?
+    rtscts: bool?
+image: ghcr.io/floridaman7588/mochad-{arch}
