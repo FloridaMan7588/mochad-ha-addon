@@ -14,6 +14,5 @@ RUN rm -rf /var/cache/apk/* /lib/apk/db/* /mochad-master/
 # Copy data for add-on
 COPY run.sh /run.sh
 RUN chmod +x /run.sh
-RUN ls
 
 CMD [ "/run.sh" ]
