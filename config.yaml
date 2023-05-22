@@ -1,6 +1,6 @@
 name: "mochad"
 description: "Enables X-10 ActiveHome and PowerHouse devices for use in Home Assistant"
-version: 0.0.1
+version: 0.0.2
 slug: "mochad"
 uart: true
 usb: true
