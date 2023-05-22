@@ -3,8 +3,10 @@ description: "Enables X-10 ActiveHome and PowerHouse devices for use in Home Ass
 version: 0.0.1
 slug: "mochad"
 uart: true
+usb: true
 url: "https://github.com/floridaman7588.me/mochad-ha-addon"
 init: false
+startup: services
 ports:
   1099/tcp: 1099
 ports_description:
