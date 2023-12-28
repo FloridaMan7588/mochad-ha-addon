@@ -4,7 +4,7 @@ version: 0.0.2
 slug: "mochad"
 uart: true
 usb: true
-url: "https://github.com/floridaman7588.me/mochad-ha-addon"
+url: "https://github.com/floridaman7588/mochad-ha-addon"
 init: false
 startup: services
 ports:
@@ -25,4 +25,3 @@ schema:
     adapter: match(CM15A|CM15Pro|CM19A)?
     baudrate: int?
     rtscts: bool?
-image: ghcr.io/floridaman7588/mochad-{arch}
