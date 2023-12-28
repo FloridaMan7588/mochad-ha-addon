@@ -25,4 +25,3 @@ schema:
     adapter: match(CM15A|CM15Pro|CM19A)?
     baudrate: int?
     rtscts: bool?
-image: ghcr.io/floridaman7588/mochad-{arch}
